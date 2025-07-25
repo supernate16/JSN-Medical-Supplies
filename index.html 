@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSN Medical Supplies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f8fb;
+      color: #333;
+    }
+    header {
+      background-color: #026aa7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #026aa7;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #e1eff7;
+      padding: 50px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section h3 {
+      color: #026aa7;
+    }
+    footer {
+      background-color: #026aa7;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JSN Medical Supplies</h1>
+    <p>Reliable Products. Compassionate Service.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Your Trusted Partner in Medical Solutions</h2>
+    <p>Serving healthcare providers across California with quality and care.</p>
+  </section>
+  <section class="section" id="about">
+    <h3>About Us</h3>
+    <p>JSN Medical Supplies is a small, family-run business committed to supplying affordable, dependable medical products to nursing homes and healthcare facilities. We pride ourselves on personal service and fast response times.</p>
+  </section>
+  <section class="section" id="products">
+    <h3>Our Products</h3>
+    <ul>
+      <li>Personal Protective Equipment (PPE)</li>
+      <li>Mobility Aids (walkers, canes, wheelchairs)</li>
+      <li>Incontinence Supplies</li>
+      <li>Wound Care Products</li>
+      <li>Daily Use Medical Tools and Devices</li>
+    </ul>
+  </section>
+  <section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p>Email: JSNMedicalSupplies@gmail.com</p>
+    <p>Phone: (925) 549-7475</p>
+    <p>Location: Based in California — proudly serving the entire state</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 JSN Medical Supplies. All rights reserved.</p>
+  </footer>
+</body>
+</html>
