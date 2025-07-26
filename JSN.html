@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JSN Medical Supplies</title>
-  <link rel="stylesheet" href="styles.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,38 +11,82 @@
       background-color: #f4f8fb;
       color: #333;
     }
+
     header {
       background-color: #026aa7;
       color: white;
       padding: 20px;
       text-align: center;
     }
+
+    /* Navbar */
     nav {
+      background-color: #ffffff;
+      overflow: hidden;
       text-align: center;
-      margin-top: 10px;
+      padding: 10px 0;
     }
-    nav a, .dropbtn {
-      margin: 0 15px;
-      text-decoration: none;
+
+    nav .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav .dropbtn {
+      background-color: #ffffff;
       color: #026aa7;
       font-weight: bold;
+      border: none;
+      cursor: pointer;
+      padding: 10px 16px;
+      font-size: 16px;
     }
+
+    nav .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    nav .dropdown-content a {
+      color: #026aa7;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    nav .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    nav .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
     .hero {
       background-color: #e1eff7;
       padding: 50px;
       text-align: center;
     }
+
     .hero h2 {
       font-size: 2rem;
     }
+
     .section {
       padding: 30px;
       max-width: 800px;
       margin: auto;
     }
+
     .section h3 {
       color: #026aa7;
     }
+
     footer {
       background-color: #026aa7;
       color: white;
@@ -51,67 +94,40 @@
       padding: 15px;
       margin-top: 30px;
     }
-    /* Dropdown Styles */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    .dropbtn {
-      background-color: #026aa7;
-      color: white;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-    }
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #e1eff7;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    .dropdown-content a {
-      color: #026aa7;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>JSN Medical Supplies</h1>
     <p>Reliable Products. Compassionate Service.</p>
   </header>
+
   <nav>
     <div class="dropdown">
       <button class="dropbtn">Menu</button>
       <div class="dropdown-content">
         <a href="about.html">About Us</a>
         <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html">Contact Us</a>
       </div>
     </div>
   </nav>
+
   <section class="hero">
     <h2>Your Trusted Partner in Medical Solutions</h2>
     <p>Serving healthcare providers across California with quality and care.</p>
   </section>
+
+  <section class="section" id="intro">
+    <h3>Welcome</h3>
+    <p>Explore our dropdown menu above to learn more about JSN Medical Supplies, our products, and how to get in touch with us.</p>
+  </section>
+
   <footer>
     <p>&copy; 2025 JSN Medical Supplies. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
 
-    <p>Location: Based in California — proudly serving the entire state</p>
-  </section>
-  <footer>
-    <p>&copy; 2025 JSN Medical Supplies. All rights reserved.</p>
-  </footer>
-</body>
-</html>
